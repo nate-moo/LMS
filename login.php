@@ -13,8 +13,16 @@
       </div>
     </center>
 
-    p.this_class
+    <div class="login">
+      <form class="login-form" action="index.php" method="post">
+        <input type="text" name="username" placeholder="Username">
+        <input type="password" name="password" placeholder="Password">
+        <button type="submit" name="submit">Submit</button>
+      </form>
+    </div>
 
-    <?php include 'style/footer.php' ?>
+    <?php
+    //include 'style/footer.php' 
+    ?>
 
   </body>
