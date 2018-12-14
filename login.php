@@ -22,7 +22,7 @@
     </div>
 
     <?php
-    //include 'style/footer.php' 
+    //include 'includes/footer.php' 
     ?>
 
   </body>
