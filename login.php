@@ -10,10 +10,8 @@
       <div class="jumbotron login-panel">
         <h1 style="font-family: 'Raleway', sans-serif">Login to G-LMS</h1>
         <!-- Google Login Button -->
-      </div>
+      </div> 
     </center>
-
-    p.this_class
 
     <?php include 'style/footer.php' ?>
 
