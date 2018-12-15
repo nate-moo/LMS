@@ -10,9 +10,19 @@
       <div class="jumbotron login-panel">
         <h1 style="font-family: 'Raleway', sans-serif">Login to G-LMS</h1>
         <!-- Google Login Button -->
-      </div> 
+      </div>
     </center>
 
-    <?php include 'style/footer.php' ?>
+    <div class="login">
+      <form class="login-form" action="index.php" method="post">
+        <input type="text" name="username" placeholder="Username">
+        <input type="password" name="password" placeholder="Password">
+        <button type="submit" name="submit">Submit</button>
+      </form>
+    </div>
+
+    <?php
+    include 'includes/footer.php'
+    ?>
 
   </body>
