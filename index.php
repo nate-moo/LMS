@@ -18,7 +18,12 @@ if ($LoggedIn == $true) {
 
 <div class="padding">
   <?php echo "<h1> $Temp </h1>"; ?>
-  <?php echo "<h1>Welcome $Username!</h1>"; ?>
+  <?php
+if ($LoggedIn == $true) {
+  echo "<h1>Welcome $Username!</h1>"; 
+}
+
+  ?>
 </div>
 
 <?php
